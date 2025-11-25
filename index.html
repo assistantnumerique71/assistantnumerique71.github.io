@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
-
+  <!-- Inclure la feuille de style de Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    /* Définir la taille de la carte */
+    #map {
+      height: 500px;
+      width: 100%;
+    }
+  </style>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
   <meta charset="utf-8" />
@@ -67,7 +75,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-			  <a class="navbar-brand" href="#page-top">Assistant numérique 71</a>
+                <a class="navbar-brand" href="#page-top">Assistant numérique 71</a><br>
+                <a class="navbar-brand" href="#" id="phone-link"  style="color: white;font-size: xx-large;">[Chargement...]</a>
+
+<script>
+  // Numéro de téléphone divisé en parties pour éviter la détection automatique
+  const phoneParts = ['06', '32', '49', '97', '07'];
+  const phoneNumber = phoneParts.join('.');
+
+  // Créer le lien avec le numéro de téléphone
+  const link = document.getElementById('phone-link');
+  link.href = 'tel:' + phoneNumber.replace(/\./g, '');
+  link.textContent = phoneNumber;
+</script>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -77,10 +98,14 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">Activités</a>
                     </li>
+                
                     <li class="page-scroll">
                         <a href="#about">A propos</a>
+                    </li>
+                         <li class="page-scroll">
+                        <a href="#carte">Carte</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -98,7 +123,9 @@
       <div class="col-lg-12">
         <img class="img-responsive" src="img/profile.png" alt="profile-pic" />
         <div class="intro-text">
-          <span class="name" href="tel:0632499707">06.32.49.97.07<span>
+
+         
+
           <hr class="star-light" />
           <span class="skills">Assistance Informatique - Formation numérique </BR> Économie sur les abonnements - Tâches administratives</span>
         </div>
@@ -113,7 +140,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Activités</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -199,16 +226,17 @@
             </div>
             <div class="row">
             
-             <p>Passionné d'informatique et de numérique, j'ai une solide expérience de plus de 30 ans dans le domaine, et je suis issu d'une formation en BTS Informatique et d'une Licence professionnelle en Techniques et Activités de l'Image et du Son.
+             <p style="max-width: 700px; margin: 0 auto;">Passionné d'informatique et de numérique, j'ai une solide expérience de plus de 30 ans dans le domaine, et je suis issu d'une formation en BTS Informatique et d'une Licence professionnelle en Techniques et Activités de l'Image et du Son.
 
-</p>
+</p>             
                     
-                    <p>Je mets mes compétences à votre service sur les zones de Chalon-sur-Saône, Le Creusot, la Communauté de Communes Le Creusot-Montceau, le Grand Chalon, la Communauté de Communes Sud Côte Chalonnaise, et la Communauté de Communes entre Saône et Grosne.</p>
-                <div class="col-lg-4 col-lg-offset-2">
-                   
-                </div>
-                <div class="col-lg-4">
                     
+                    
+                 
+	
+	
+              
+
                 </div>
                
             </div>
@@ -216,14 +244,70 @@
     </section>
 
 
+    <!-- Contact Section -->
+<section id="carte">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Carte</h2>
+				<hr class="star-primary">
+
+			</div>
+
+<p style="max-width: 700px; margin: 0 auto;">
+               
+<div id="map"></div>
+
+ <!-- Inclure la bibliothèque Leaflet -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+  // Coordonnées du point central (exemple : Paris)
+  const centerLat = 46.6862321;
+  const centerLng = 4.6733605;
+
+  // Rayon en kilomètres
+  const radiusKm = 26;
+
+  // Créer la carte avec la molette désactivée
+  const map = L.map('map', {
+    center: [centerLat, centerLng],
+    zoom: 10,
+    scrollWheelZoom: false // désactive la molette
+  });
+
+  // Ajouter un fond de carte OpenStreetMap
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Ajouter un cercle représentant le rayon
+  const circle = L.circle([centerLat, centerLng], {
+    radius: radiusKm * 1000, // convertir km en mètres
+    color: 'blue',
+    fillColor: '#0000FF', // couleur bleue en hexadécimal
+    fillOpacity: 0.2
+  }).addTo(map);
+
+  // Ajouter un marqueur au centre
+  L.marker([centerLat, centerLng]).addTo(map)
+    .bindPopup('Saint-Vallerin')
+    .openPopup();
+</script>
+
+  
+  
+                                                          
+                                      </p>          
+
+       </div>
+    </section>
     
     <!-- Contact Section -->
 <section id="contact">
 	<div class="container">
-		<div class="row">
+			<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2>Contact Moi</h2>
-								<h3>06.32.49.97.07</h3>
+				<h2>Contactez Moi</h2>
 				<hr class="star-primary">
 
 			</div>
