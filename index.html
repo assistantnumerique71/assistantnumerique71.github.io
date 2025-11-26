@@ -238,7 +238,7 @@
                
 <div id="map"></div>
 
- <!-- Inclure la bibliothèque Leaflet -->
+<!-- Inclure la bibliothèque Leaflet -->
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
   // Coordonnées du point central (exemple : Paris)
@@ -248,11 +248,14 @@
   // Rayon en kilomètres
   const radiusKm = 26;
 
-  // Créer la carte avec la molette désactivée
+  // Créer la carte avec la molette désactivée et le déplacement désactivé
   const map = L.map('map', {
     center: [centerLat, centerLng],
     zoom: 10,
-    scrollWheelZoom: false // désactive la molette
+    scrollWheelZoom: false, // désactive la molette
+    dragging: false,        // désactive le déplacement par glissement/touch
+    doubleClickZoom: false, // désactive le zoom au double clic
+    touchZoom: false        // désactive le zoom par pincement/touch
   });
 
   // Ajouter un fond de carte OpenStreetMap
@@ -273,6 +276,7 @@
     .bindPopup('Saint-Vallerin')
     .openPopup();
 </script>
+
 
   
   
