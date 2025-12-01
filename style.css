@@ -457,3 +457,30 @@ footer .footer-below {
     width: 50% !important;
   }
 }
+
+.img-impot {
+    width: 20% ;
+    margin-top:30px;
+}
+
+.text-tarif{
+    font-size:4.5em;
+    font-weight: bold;
+    
+}
+.texte-image{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #2c3e50;
+    font-size:1.5em;
+    margin-top:5px;
+    
+}
+.texte-apropos{
+    max-width: 700px; 
+    margin: 0 auto;
+   padding: 22px;
+}
+
