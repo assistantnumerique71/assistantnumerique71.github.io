@@ -497,3 +497,6 @@ footer .footer-below {
     
     
 }
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+ margin-top: 44px;
+}
