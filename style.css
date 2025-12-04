@@ -463,7 +463,6 @@ footer .footer-below {
     width: 20% ;
     margin-top:30px;
     min-width: 200px;
-    
 }
 
 .text-tarif{
@@ -497,6 +496,8 @@ footer .footer-below {
     
     
 }
+
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
- margin-top: 44px !important;
+ margin-top: 44px;
 }
+
