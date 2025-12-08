@@ -78,21 +78,19 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" style="color: #18bc9c;" href="#page-top">Assistant numérique 71</a><br>
-                <a class="navbar-brand" href="#" id="phone-link"  style="color: white;font-size: xx-large;">[Chargement...]</a>
-
+                <a class="navbar-brand" href="#"  id="phone-link" data-n="06|20|54|59|57" style="color:white; font-size: xx-large;">[Chargement...]</a>
 
 <script>
-  // Numéro de téléphone divisé en parties pour éviter la détection automatique
-  const phoneParts = ['06', '36', '42', '51', '51'];
-  const phoneNumber = phoneParts.join('.');
 
-  // Créer le lien avec le numéro de téléphone
+  const encoded = "MDYuMzYuNDIuNTEuNTE=";
+
+  const decoded = atob(encoded).replace(/\s/g, '.'); // remplace les espaces par des .
+  const cleaned = decoded.replace(/\./g, ''); // version sans points pour tel:
+
   const link = document.getElementById('phone-link');
-  link.href = 'tel:' + phoneNumber.replace(/\./g, '');
-  link.textContent = phoneNumber;
+  link.href = "tel:" + cleaned;
+  link.textContent = decoded;
 </script>
-
-<
 
             </div>
 
