@@ -80,7 +80,7 @@ header {
     text-align: center;
     color: #fff;
     background: #0b62d7;
-       background-image: url("img/fond.jpg");
+       background-image: url("img/fond.webp");
         background-repeat: no-repeat;
 
   background-position: right;
@@ -131,11 +131,11 @@ header .intro-text .skills {
 }
 #phone-link{
     
-    color:#d6af48  !important;
+
     
 }
 .navbar-brand{
-    color:#ffffff!important;
+
     
 }
 
@@ -275,7 +275,7 @@ section.success {
 
 #portfolio {
     
-         background-image: url("img/fond2.jpg");
+         background-image: url("img/fond2.webp");
         background-repeat: no-repeat;
 background-position-y: 217px;
   background-position: right;
@@ -487,7 +487,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #d6af48 !important;
+    background-color: #7e6a35 !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -557,3 +557,8 @@ footer .footer-below {
   border-color: #a88c43 !important;
 }
 
+
+.navbar {
+    border-width: 1px !important;
+    border-color: #d6af48 !important;
+}

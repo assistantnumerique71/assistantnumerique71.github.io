@@ -52,7 +52,7 @@
     type="text/css"
   />
   <link
-    href="../../fonts.googleapis.com/cssb033.css?family=Lato:400,700,400italic,7file:///home/maison/Documents/Jerome/Activit%C3%A9/assistantnumerique71.github.io/img/profile.webp00italic"
+    href="../../fonts.googleapis.com/cssb033.css?family=Lato:400,700,400italic,7file:///home/maison/Documents/Jerome/Activit%C3%A9/assistantnumerique71.github.io/img/profile.png00italic"
     rel="stylesheet"
     type="text/css"
   />
@@ -77,8 +77,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" style="color: #d6af48;" href="#page-top">Assistant numérique 71</a><br>
-                <a class="navbar-brand" href="#"  id="phone-link" data-n="06|20|54|59|57" style="color:white; font-size: xx-large;">[Chargement...]</a>
+                <a class="navbar-brand" style="color: #18bc9c;" href="#page-top">Assistant numérique 71</a><br>
+                <a class="navbar-brand" href="#"  id="phone-link" data-n="06|20|54|59|57" style="font-size: xx-large;">[Chargement...]</a>
 
 <script>
 
@@ -127,7 +127,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <img class="img-responsive" src="img/profile.webp" alt="profile-pic" />
+        <img class="img-responsive" src="img/profile.png" alt="profile-pic" />
         <div class="intro-text">
 
          
@@ -159,7 +159,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/depannage.webp" class="img-responsive" alt="image-alt">
+                            <img src="img/portfolio/depannage.png" class="img-responsive" alt="image-alt">
                            
                            
                         </a>
@@ -173,7 +173,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/formation.webp" class="img-responsive" alt="image-alt">
+                            <img src="img/portfolio/formation.png" class="img-responsive" alt="image-alt">
                             
                         </a>
                          <span class="texte-image">Formation numérique</span>
@@ -186,7 +186,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/argent.webp" class="img-responsive" alt="image-alt">
+                            <img src="img/portfolio/argent.png" class="img-responsive" alt="image-alt">
                              
                         </a>
                         <span class="texte-image">Économie sur les abonnements</span>
@@ -199,7 +199,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/administratif.webp" class="img-responsive" alt="image-alt">
+                            <img src="img/portfolio/administratif.png" class="img-responsive" alt="image-alt">
                         </a>
                         <span class="texte-image">Tâches administratives</span>
                     </div>
@@ -312,7 +312,7 @@
                     <h1 class="text-tarif">60 € TTC*</h1>    
                     *Avant Crédit ou Réduction d'împots, <BR>
                      soit 30 € TTC à la charge du client. <BR>     
-                                        <img class="img-impot" src="img/impot.webp" alt="profile-pic" />     
+                                        <img class="img-impot" src="img/impot.png" alt="profile-pic" />     
 
 
 
@@ -455,7 +455,7 @@
                         <div class="modal-body">
                             <h2 class="centre">Assistance Informatique</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/depannage.webp" class="img-responsive img-centered" alt="image-alt">
+                            <img src="img/portfolio/depannage.png" class="img-responsive img-centered" alt="image-alt">
                             
                                 <p>Je vous propose une activité d’assistance informatique axée sur la qualité de service, la compétence professionnelle, l’écoute attentive de vos besoins et la rapidité d’intervention. Mon engagement est de fournir un support technique fiable et efficace, en mettant à votre disposition un savoir-faire approfondi dans le domaine de l’informatique. Grâce à une expertise solide, je suis en mesure de diagnostiquer rapidement les problèmes, d’apporter des solutions adaptées.<BR><BR>
 
@@ -486,7 +486,7 @@ En résumé, je propose un service d’assistance informatique alliant professio
                         <div class="modal-body">
                             <h2 class="centre">Formation numérique</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/formation.webp" class="img-responsive img-centered" alt="image-alt">
+                            <img src="img/portfolio/formation.png" class="img-responsive img-centered" alt="image-alt">
                             
                                 <p>Je vous propose une activité de formation numérique axée sur une relation client privilégiée, où chaque apprenant bénéficie d'une pédagogie adaptée à ses besoins et à son rythme. Mon approche repose sur une écoute attentive afin de comprendre les attentes et les objectifs de chacun, permettant ainsi de personnaliser les parcours de formation pour une efficacité optimale.<BR><BR>
 
@@ -517,7 +517,7 @@ En complément, je propose des formations plus avancées telles que le montage v
                         <div class="modal-body">
                             <h2 class="centre">Économie sur les abonnements</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/argent.webp" class="img-responsive img-centered" alt="image-alt">
+                            <img src="img/portfolio/argent.png" class="img-responsive img-centered" alt="image-alt">
                             
                                 <p>Mon activité d'accompagnement dans la gestion des abonnements constitue une solution efficace pour optimiser les dépenses des particuliers et des entreprises. En proposant un service de qualité, je mets à votre disposition une expertise approfondie pour analyser, comparer et négocier vos abonnements dans des domaines variés tels que l'électricité, le téléphone, Internet, ainsi que les assurances habitation et voiture.<BR><BR>
                                  Je possède des compétences professionnelles solides, acquises au fil des années dans le secteur de la gestion des contrats et de la négociation commerciale. Je suis capable d'identifier rapidement les opportunités d’économies, de repérer les offres les plus avantageuses et de vous accompagner dans la renégociation ou la résiliation de contrats obsolètes ou coûteux. <BR><BR>
@@ -546,7 +546,7 @@ En complément, je propose des formations plus avancées telles que le montage v
                         <div class="modal-body">
                             <h2 class="centre">Tâches administratives</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/administratif.webp" class="img-responsive img-centered" alt="image-alt">
+                            <img src="img/portfolio/administratif.png" class="img-responsive img-centered" alt="image-alt">
                             
                                 <p>Je vous propose un service de tâches administratives personnalisé, conçu pour répondre efficacement à vos besoins quotidiens. Mon engagement est de vous offrir une qualité de service irréprochable, alliant professionnalisme, écoute attentive et rapidité d'intervention. Grâce à mes compétences en bureautique, je peux réaliser diverses petites tâches telles que la gestion de vos préférences d'abonnements les paramétrant pour recevoir uniquement par mail ou courrier les sollicitations pertinentes, afin de simplifier votre organisation. <BR><BR>
                                 Je peux également vous accompagner dans la comparaison de devis, en analysant les propositions pour vous aider à faire le choix le plus adapté, ou vous fournir un avis extérieur sur de futurs petits travaux, vous permettant ainsi de prendre des décisions éclairées. Par ailleurs, je suis à votre disposition pour rédiger ou vous aider à rédiger des courriers administratifs, en veillant à leur clarté, leur conformité et leur efficacité. <BR><BR>
@@ -575,7 +575,7 @@ En complément, je propose des formations plus avancées telles que le montage v
                         <div class="modal-body">
                             <h2>Project 6</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/submarine.webp" class="img-responsive img-centered" alt="image-alt">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="image-alt">
                             
                                 <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             
@@ -602,7 +602,7 @@ En complément, je propose des formations plus avancées telles que le montage v
                         <div class="modal-body">
                             <h2>Project 5</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/safe.webp" class="img-responsive img-centered" alt="image-alt">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="image-alt">
                             
                                 <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             
