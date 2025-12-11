@@ -55,12 +55,12 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #d6af48;
+    border-color: #fff;
 }
 
 hr.star-light:after {
-    color: #d6af48;
-    background-color: #0b62d7;
+    color: #fff;
+    background-color: #18bc9c;
 }
 
 hr.star-primary {
@@ -79,18 +79,12 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #0b62d7;
-       background-image: url("img/fond.jpg");
-        background-repeat: no-repeat;
-
-  background-position: right;
-}
+    background: #004aad;
 }
 
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
- 
 }
 
 header img {
@@ -112,32 +106,7 @@ header .intro-text .skills {
 }
 
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #FAF6EA;
 
-  background-color: transparent;
-}
-
-
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff !important;
-
-
-
-}
-.navbar-default {
-  background-color: #103367!important;
-  border-color: transparent;
-}
-#phone-link{
-    
-    color:#d6af48  !important;
-    
-}
-.navbar-brand{
-    color:#ffffff!important;
-    
-}
 
 @media(min-width:768px) {
     header .container {
@@ -208,12 +177,11 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
-
 }
 
 section.success {
     color: #fff;
-    background: #0b62d7;
+    background: #18bc9c;
 }
 
 @media(max-width:767px) {
@@ -273,17 +241,8 @@ section.success {
     margin: 0;
 }
 
-#portfolio {
-    
-         background-image: url("img/fond2.jpg");
-        background-repeat: no-repeat;
-background-position-y: 217px;
-  background-position: right;
-}
-
 #portfolio * {
     z-index: 2;
-    
 }
 
 @media(min-width:767px) {
@@ -487,7 +446,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #d6af48 !important;
+    background-color: #233140 !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -545,15 +504,4 @@ footer .footer-below {
  margin-top: 44px;
 }
 
-.btn-success, .btn-success, .btn-success, .btn-success, .open > .dropdown-toggle.btn-success {
-  color: #ffffff;
-  background-color: #d6af48 !important;
-  border-color: #d6af48 !important;
-}
-
-.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
-  color: #ffffff;
-  background-color: #a88c43 !important;
-  border-color: #a88c43 !important;
-}
 
