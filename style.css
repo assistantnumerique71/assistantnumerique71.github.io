@@ -159,10 +159,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
 
-header img {
 
-  width: 47% !important;
-}
 
     .navbar-fixed-top {
         padding: 25px 0;
@@ -226,6 +223,11 @@ section.success {
 }
 
 @media(max-width:767px) {
+
+header img {
+
+  width: 47% !important;
+}
 
 #phone-link {
   padding: ;
