@@ -158,6 +158,9 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
+
+
+
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -220,6 +223,11 @@ section.success {
 }
 
 @media(max-width:767px) {
+
+header img {
+
+  width: 47% !important;
+}
 
 #phone-link {
   padding: ;
@@ -585,6 +593,10 @@ footer .footer-below {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1185px;
+    width: 1185px !important;
   }
+}
+
+#calendar .slot[status="freePublic"]:hover {
+  background-color: #39c292;
 }
